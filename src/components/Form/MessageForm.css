@@ -1,0 +1,36 @@
+.form-message {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.form-message form {
+  flex-direction: column;
+}
+
+textarea {
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.message-button {
+  width: 50%;
+  margin: 10px 0;
+  padding: 15px;
+  color: #fff;
+  background: slateblue;
+  border: none;
+  border-radius: 10px;
+  font-size: 20px;
+  transition: all 0.6 ease;
+}
+
+.message-button:hover {
+  color: slateblue;
+  background-color: #fff;
+}
+
+.disabled {
+  opacity: 0.5;
+}

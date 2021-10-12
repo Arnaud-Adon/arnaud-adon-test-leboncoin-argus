@@ -1,0 +1,374 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Message container test suite should render correctly 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="container"
+      >
+        <div
+          class="messages-container"
+        >
+          <div
+            class="message-content left-message"
+          >
+            <p
+              class="message-field"
+            >
+              public
+            </p>
+            <div
+              class="message-text-content left-color"
+            >
+              Bonjour à tous
+            </div>
+          </div>
+          <div
+            class="message-content right-message"
+          >
+            <p
+              class="message-field"
+            >
+              public
+            </p>
+            <div
+              class="message-text-content right-color"
+            >
+              Comment allez-vous
+            </div>
+          </div>
+          <div
+            class="message-content left-message"
+          >
+            <p
+              class="message-field"
+            >
+              private
+            </p>
+            <div
+              class="message-text-content left-color"
+            >
+              Voici un secret
+            </div>
+          </div>
+          <div
+            class="message-content right-message"
+          >
+            <p
+              class="message-field"
+            >
+              private
+            </p>
+            <div
+              class="message-text-content right-color"
+            >
+              Ok, je garde ça pour moi
+            </div>
+          </div>
+          <div
+            class="message-content left-message"
+          >
+            <p
+              class="message-field"
+            >
+              public
+            </p>
+            <div
+              class="message-text-content left-color"
+            >
+              Salut
+            </div>
+          </div>
+          <div
+            class="message-content right-message"
+          >
+            <p
+              class="message-field"
+            >
+              public
+            </p>
+            <div
+              class="message-text-content right-color"
+            >
+              La forme ?
+            </div>
+          </div>
+          <div
+            class="message-content left-message"
+          >
+            <p
+              class="message-field"
+            >
+              public
+            </p>
+            <div
+              class="message-text-content left-color"
+            >
+              Bienvenue
+            </div>
+          </div>
+          <div
+            class="message-content right-message"
+          >
+            <p
+              class="message-field"
+            >
+              public
+            </p>
+            <div
+              class="message-text-content right-color"
+            >
+              Merci à toi.
+            </div>
+          </div>
+        </div>
+        <div
+          class="form-message"
+        >
+          <label
+            for="form-message"
+          >
+            Entrez un message
+          </label>
+          <form>
+            <textarea
+              cols="30"
+              id="form-message"
+              name="message"
+              placeholder="Entrez votre message"
+              rows="10"
+            />
+            <div>
+              <label
+                for="message-status"
+              >
+                Message en privé ?
+              </label>
+              <input
+                id="message-status"
+                type="checkbox"
+              />
+            </div>
+            <button
+              class="message-button disabled"
+              disabled=""
+            >
+              Valider
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="container"
+    >
+      <div
+        class="messages-container"
+      >
+        <div
+          class="message-content left-message"
+        >
+          <p
+            class="message-field"
+          >
+            public
+          </p>
+          <div
+            class="message-text-content left-color"
+          >
+            Bonjour à tous
+          </div>
+        </div>
+        <div
+          class="message-content right-message"
+        >
+          <p
+            class="message-field"
+          >
+            public
+          </p>
+          <div
+            class="message-text-content right-color"
+          >
+            Comment allez-vous
+          </div>
+        </div>
+        <div
+          class="message-content left-message"
+        >
+          <p
+            class="message-field"
+          >
+            private
+          </p>
+          <div
+            class="message-text-content left-color"
+          >
+            Voici un secret
+          </div>
+        </div>
+        <div
+          class="message-content right-message"
+        >
+          <p
+            class="message-field"
+          >
+            private
+          </p>
+          <div
+            class="message-text-content right-color"
+          >
+            Ok, je garde ça pour moi
+          </div>
+        </div>
+        <div
+          class="message-content left-message"
+        >
+          <p
+            class="message-field"
+          >
+            public
+          </p>
+          <div
+            class="message-text-content left-color"
+          >
+            Salut
+          </div>
+        </div>
+        <div
+          class="message-content right-message"
+        >
+          <p
+            class="message-field"
+          >
+            public
+          </p>
+          <div
+            class="message-text-content right-color"
+          >
+            La forme ?
+          </div>
+        </div>
+        <div
+          class="message-content left-message"
+        >
+          <p
+            class="message-field"
+          >
+            public
+          </p>
+          <div
+            class="message-text-content left-color"
+          >
+            Bienvenue
+          </div>
+        </div>
+        <div
+          class="message-content right-message"
+        >
+          <p
+            class="message-field"
+          >
+            public
+          </p>
+          <div
+            class="message-text-content right-color"
+          >
+            Merci à toi.
+          </div>
+        </div>
+      </div>
+      <div
+        class="form-message"
+      >
+        <label
+          for="form-message"
+        >
+          Entrez un message
+        </label>
+        <form>
+          <textarea
+            cols="30"
+            id="form-message"
+            name="message"
+            placeholder="Entrez votre message"
+            rows="10"
+          />
+          <div>
+            <label
+              for="message-status"
+            >
+              Message en privé ?
+            </label>
+            <input
+              id="message-status"
+              type="checkbox"
+            />
+          </div>
+          <button
+            class="message-button disabled"
+            disabled=""
+          >
+            Valider
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
