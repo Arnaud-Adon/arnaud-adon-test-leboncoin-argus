@@ -1,4 +1,4 @@
-import React, { useState, FunctionComponent, useEffect } from "react";
+import React, { useState, FunctionComponent, useEffect, useRef } from "react";
 import { IMessage } from "../../models/message";
 import "./MessageList.css";
 
@@ -38,14 +38,22 @@ const RenderMessages: FunctionComponent<RenderMessagesProps> = ({
 
 const MessagesList: FunctionComponent<OwnProps> = ({ messagesList }) => {
   const [messages, setMessages] = useState<IMessage[]>(messagesList);
+  const messageEndRef = useRef<HTMLDivElement>(document.createElement("div"));
+
+  const scrollToBottom = () => {
+    messageEndRef.current.scrollIntoView({ behavior: "smooth" });
+  };
 
   useEffect(() => {
     setMessages(messagesList);
   }, [messages, messagesList]);
 
+  useEffect(scrollToBottom, [messages, messagesList]);
+
   return (
     <div className="messages-container">
       <RenderMessages isVisible={messages.length > 0} messages={messages} />
+      <div ref={messageEndRef} />
     </div>
   );
 };
